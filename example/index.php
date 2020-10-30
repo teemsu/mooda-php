@@ -8,6 +8,7 @@ define('SERVICES_DIRECTORY', (DIRECTORY_ROOT . '/application/services/'));
 define('DEVELOPMENT_MODE', TRUE);
 
 require (DIRECTORY_ROOT . '/../src/autoload.php');
+//require (DIRECTORY_ROOT . '/../vendor/autoload.php');
 
 define('ROUTE_URI', (empty($_SERVER['PATH_INFO']) ? 'Home/index' : $_SERVER['PATH_INFO']));
 

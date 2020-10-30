@@ -9,7 +9,7 @@
             "email": "teemsu@live.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "dev-main",
     "require": {
         "php": ">=5.3.0",
         "mustache/mustache": "^2.12"
