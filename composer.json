@@ -14,6 +14,6 @@
         "mustache/mustache": "^2.12"
     },
     "autoload": {
-        "psr-4": {"teemsu\\Mooda\\": "src/Mooda"}
+        "files": ["src/autoload.php"]
     }
 }
