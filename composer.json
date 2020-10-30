@@ -1,0 +1,17 @@
+{
+    "name": "teemsu/mooda-php",
+    "description": "PHP Framework for a Web Application.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Worapong Sriwichian",
+            "email": "teemsu@live.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"Mooda\\": "src/"}
+    },
+    "require": {}
+}
