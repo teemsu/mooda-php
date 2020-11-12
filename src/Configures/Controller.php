@@ -2,7 +2,7 @@
 
 return array(
     'Home' => array(
-        'database' => array('test'),
+        'database' => null, //array('test','test1')
         'model' => array('Hello')
     )
 );
