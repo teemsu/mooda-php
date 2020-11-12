@@ -182,10 +182,12 @@ class Mooda {
 class MoodaVariables {
     public static $config = array();
     public static $database = array();
+    public static $languages = array();
 
     public static function init(){
         self::$config = array();
         self::$database = array();
+        self::$languages = array();
     }
 }
 

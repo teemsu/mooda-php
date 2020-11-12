@@ -4,10 +4,11 @@ namespace Mooda\Systems;
 
 class Models extends \Mooda {
 
-    protected $config, $service, $database;
+    protected $config, $service, $database, $languages;
 
     public function __construct() {
         $this->config = (object) parent::get_config('Application');
+        $this->languages = (object) \MoodaVariables::$languages;
 
         $preloader = parent::preloader_controller();
 
